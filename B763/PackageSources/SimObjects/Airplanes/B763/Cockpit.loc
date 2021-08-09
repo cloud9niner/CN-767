@@ -1,0 +1,138 @@
+{
+  "LocalisationFile": {
+    "Version": 2,
+    "UUID": "8fd165b7-840b-481e-95d8-6d31a70f63d6",
+    "Languages": [
+      "en-US",
+      "fr-FR",
+      "es-ES",
+      "de-DE",
+      "it-IT",
+      "pl-PL",
+      "pt-BR",
+      "ru-RU",
+      "ja-JP",
+      "nl-NL",
+      "nb-NO",
+      "sv-SE",
+      "fi-FI",
+      "zh-CN"
+    ],
+    "Strings": {
+      "COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_HDG_TUNING_LEFT": {
+        "UUID": "c3803db3-2bbd-4a83-abef-74b926de0852",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-28 18:04:15",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Adjust selected heading to the left (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "fr-FR": {
+            "Text": "Adapter le cap souhaité sur la gauche (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "es-ES": {
+            "Text": "Ajustar el rumbo seleccionado a la izquierda (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "de-DE": {
+            "Text": "Ausgewählten Steuerkurs nach links anpassen (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!)"
+          },
+          "it-IT": {
+            "Text": "Regola a sinistra rotta selezionata (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "pl-PL": {
+            "Text": "Zmień wybrany kurs w lewo o (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "pt-BR": {
+            "Text": "Ajustar a proa selecionada para a esquerda (%((A:AUTOPILOT HEADING LOCK DIR,degrees))%!d!°)"
+          },
+          "ru-RU": {
+            "Text": "Скорректировать заданный курс влево (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "ja-JP": {
+            "Text": "選択した針路を左に調整する (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nl-NL": {
+            "Text": "Geselecteerde koers naar links aanpassen (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nb-NO": {
+            "Text": "Juster valgt kurs til venstre (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "sv-SE": {
+            "Text": "Justera den valda kursen åt vänster (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "fi-FI": {
+            "Text": "Säädä valittua ohjaussuuntaa vasemmalle (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "zh-CN": {
+            "Text": "向左调整所选航向(%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_HDG_TUNING_RIGHT": {
+        "UUID": "8464ffeb-508a-4318-95d0-53a50e29b00d",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-28 18:04:15",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Adjust selected heading to the right  (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "fr-FR": {
+            "Text": "Adapter le cap souhaité sur la droite (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "es-ES": {
+            "Text": "Ajustar el rumbo seleccionado a la derecha (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "de-DE": {
+            "Text": "Ausgewählten Steuerkurs nach rechts anpassen (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!)"
+          },
+          "it-IT": {
+            "Text": "Regola a destra rotta selezionata (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "pl-PL": {
+            "Text": "Zmień wybrany kurs w prawo o (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "pt-BR": {
+            "Text": "Ajustar a proa selecionada para a direita (%((A:AUTOPILOT HEADING LOCK DIR,degrees))%!d!°)"
+          },
+          "ru-RU": {
+            "Text": "Скорректировать заданный курс вправо (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "ja-JP": {
+            "Text": "選択した針路を右に調整する (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nl-NL": {
+            "Text": "Geselecteerde koers naar rechts aanpassen (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "nb-NO": {
+            "Text": "Juster valgt kurs til høyre (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "sv-SE": {
+            "Text": "Justera den valda kursen åt höger (%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)"
+          },
+          "fi-FI": {
+            "Text": "Säädä valittua ohjaussuuntaa oikealle (%(A:AUTOPILOT HEADING LOCK DIR:1,degrees)%!d!°)"
+          },
+          "zh-CN": {
+            "Text": "向右调整所选航向(%((A:AUTOPILOT HEADING LOCK DIR:1,degrees))%!d!°)",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      }
+    }
+  }
+}

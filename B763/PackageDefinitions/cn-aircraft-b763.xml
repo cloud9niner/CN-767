@@ -1,0 +1,39 @@
+<AssetPackage Name="cn-aircraft-b763" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>AIRCRAFT</ContentType>
+		<Title>Boeing 767-300</Title>
+		<Manufacturer>Boeing</Manufacturer>
+		<Creator>cn</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\cn-aircraft-b763\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\cn-aircraft-b763\</OutputDir>
+		</AssetGroup>
+				<AssetGroup Name="MarketplaceData">
+			<Type>MarketplaceData</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\cn-aircraft-b763\MarketplaceData\</AssetDir>
+			<OutputDir>MarketplaceData\cn-aircraft-b763\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="cn-aircraft-b763">
+			<Type>SimObject</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\SimObjects\Airplanes\b763\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\b763\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

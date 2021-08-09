@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ModelInfo>
+
+	<LODS>
+		<!-- Highest LOD -->
+		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
+		<!-- default minSize is 0 -->
+		<LOD minSize="100" ModelFile="B763_LOD00.gltf"/>
+	</LODS>
+	
+	<Behaviors>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Component ID="HANDLING">
+			<UseTemplate Name="ASOBO_HANDLING_Elevator_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_HANDLING_Rudder_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_HANDLING_Aileron_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_HANDLING_Flaps_Template">
+			</UseTemplate>
+		</Component>
+		<Component ID="GEARS">
+			<UseTemplate Name="ASOBO_GEAR_Center_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GEAR_Left_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GEAR_Right_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GEAR_Center_Tire_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GEAR_Left_Tire_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GEAR_Right_Tire_Template">
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GEAR_Steering_Template">
+			</UseTemplate>
+		</Component>
+	</Behaviors>
+
+	<Animation name="c_wheel" 	guid="6a3e25a3-1965-4eed-be91-363e018d6f91" length="200" type="Sim" typeparam2="c_wheel" typeparam="AutoPlay" />
+
+	<PartInfo>
+        <Name>c_wheel</Name>
+        <AnimLength>200</AnimLength>
+        <Animation>
+            <Parameter>
+          <Code>
+            (A:GEAR CENTER STEER ANGLE, grads) 0 &gt; if{ (A:GEAR CENTER STEER ANGLE, grads) 0.5 * } els{ (A:GEAR CENTER STEER ANGLE, grads) 0.5 * 200 + }
+          </Code>
+            </Parameter>
+        </Animation>
+        <MouseRect>
+            <TooltipID>TOOLTIPTEXT_STEER_ANGLE</TooltipID>
+        </MouseRect>
+    </PartInfo>
+	
+</ModelInfo>
